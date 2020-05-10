@@ -18,7 +18,7 @@ with open(HERE / 'requirements.txt') as requirements:
 from src import __version__
 
 setup(
-    name="tipboard2.0",
+    name="tipboard2.0-ghp",
     version=__version__,
     description="Tipboard - a flexible solution for creating your dashboards.",
     long_description=README,
