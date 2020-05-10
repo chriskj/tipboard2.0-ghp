@@ -1,9 +1,8 @@
 import json, os
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-conf = json.load(open(dir_path + '/Config/properties.json'))
-
 ## Chriskj-way
+#conf = json.load(open(dir_path + '/Config/properties.json'))
 conf = json.load(open('/app/config/properties.json'))
 
 FORMAT_SIMPLE_DATE = '%Y-%m-%d'
@@ -100,8 +99,7 @@ FROM_PIP = 'src.'
 # * dans bash
 
 # Determine which layout config should be used
-user_config_dir = dir_path + '/Config/'
+#user_config_dir = dir_path + '/Config/'
+user_config_dir = '/app/config/'
 LAYOUT_CONFIG = os.path.join(user_config_dir, 'layout_config.yaml')
-
-LAYOUT_CONFIG = '/app/config/layout_config.yaml'
 
