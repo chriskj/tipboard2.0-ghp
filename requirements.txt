@@ -1,4 +1,4 @@
-django==3.0.7
+django==3.1.13
 django-prometheus==2.0.0
 django-cors-headers==3.2.1
 channels==2.4.0
